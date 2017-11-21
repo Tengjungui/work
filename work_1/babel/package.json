@@ -1,0 +1,17 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "presets": "babel src/app.js -o out/test1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
